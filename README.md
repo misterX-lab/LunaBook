@@ -1,4 +1,3 @@
-# Hello LunaBook!
 <div align="center">
 
 ```
@@ -11,7 +10,6 @@
 ```
 
 ### *A place as quiet as the moon. A space as deep as a book.*
-### *月のように静かで、本のように深い場所。*
 
 <br/>
 
@@ -23,6 +21,11 @@
 ![PWA](https://img.shields.io/badge/PWA-ready-5a0fc8?style=flat-square&logo=pwa&logoColor=white)
 
 </div>
+
+---
+
+> [!NOTE]
+> This README is a living document. As Lunabook evolves — features, stack decisions, and structure may change. Check back for updates, and feel free to open a Discussion if something looks outdated.
 
 ---
 
@@ -40,58 +43,12 @@ Think of it as **Facebook × Reddit × iMessage × FaceTime** — but stripped o
 
 ## 🌙 Why Lunabook?
 
-現代のSNSが抱える問題に、私たちは真剣に向き合っています。
-
-| The Problem / 問題 | The Lunabook Way / Lunabookの答え |
+| The Problem | The Lunabook Way |
 |---|---|
-| 短文投稿が思考を浅くする | 長文のみ。短文投稿は存在しない |
-| 「いいね」が承認欲求を加速させる | 温もりのあるリアクションのみ（🌙など） |
-| タイムラインが騒がしすぎる | 静かなスレッドで、深く・ゆっくり |
-| 見知らぬ人との浅いつながり | プライベートルームで、本当の人たちと |
-
----
-
-## ✨ Core Features / 主な機能
-
-### 🪶 Quiet Threads — 静かなスレッド
-Long-form discussions as the primary experience. Short replies and reaction spam are intentionally minimized. Every post is meant to be *read*, not just scrolled past.
-
-長文でじっくり議論するためのメイン機能。短い返信やスタンプは意図的に最小限に。すべての投稿は「読まれるため」に存在します。
-
----
-
-### 🏡 Private Rooms — プライベートルーム
-Invite-only spaces for your real friends and family. Set a gentle theme — nature, travel, animals — and just... *be together*.
-
-現実の友達や家族だけを招待できる完全閉鎖空間。自然、旅行、動物など、ゆるいテーマを設定して、ただ一緒にいられる場所。
-
----
-
-### 🌙 Warmth Reactions — 温もり通知
-No thumbs up. No fire emoji. Only soft, meaningful reactions — because some conversations deserve more than a tap.
-
-「いいね」はありません。「この長文を読んで温かくなったよ」という気持ちだけを、月マークのような柔らかい絵文字で届けます。
-
----
-
-### 📖 Memory Pages — 思い出のページ
-Browse your past threads like turning pages of a cherished book. Every deep conversation, preserved.
-
-過去の長文スレッドを、大切な本のページをめくるように振り返れる機能。
-
----
-
-### 🌑 Luna Mode — 月読モード
-At night, the UI softens. Notifications quiet down. The words take center stage.
-
-夜になるとUIが暗く静かになり、長文が読みやすくなります。通知を抑えるオプション付き。
-
----
-
-### 📹 Voice & Video Calls — 通話機能
-Powered by **Jitsi Meet** (open-source), embedded natively in TypeScript. No third-party apps. No account walls. Just your people, on screen.
-
-オープンソースの Jitsi Meet をTypeScriptでネイティブ埋め込み。アプリ不要・アカウント不要で、大切な人たちとすぐつながれます。
+| Short posts make thinking shallow | Long-form only — no short posts, by design |
+| "Likes" accelerate approval-seeking | Warm, soft reactions only (🌙 and friends) |
+| Timelines are loud and relentless | Quiet threads. Read slowly. Think deeply. |
+| Shallow ties with strangers | Private rooms for the people who actually matter |
 
 ---
 
@@ -109,7 +66,7 @@ Lunabook is built for people who:
 
 ---
 
-## 🛠️ Tech Stack / 技術スタック
+## 🛠️ Tech Stack
 
 Lunabook is built **TypeScript end-to-end** — one language, full stack, zero context-switching.
 
@@ -141,7 +98,7 @@ Lunabook is built **TypeScript end-to-end** — one language, full stack, zero c
 
 ---
 
-## 📁 Project Structure / ディレクトリ構成
+## 📁 Project Structure
 
 ```
 lunabook/
@@ -160,7 +117,7 @@ lunabook/
 
 ---
 
-## 🚀 Getting Started / はじめかた
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -193,11 +150,9 @@ The app will be available at `http://localhost:3000` 🌙
 
 ---
 
-## 🤝 Contributing / コントリビュート
+## 🤝 Contributing
 
 Lunabook is in its earliest phase — and we'd love thoughtful contributors who resonate with the vision.
-
-このプロジェクトはまだ初期段階です。ビジョンに共感してくれる仲間を探しています。
 
 1. Fork this repository
 2. Create your feature branch: `git checkout -b feature/your-idea`
@@ -209,15 +164,11 @@ Lunabook is in its earliest phase — and we'd love thoughtful contributors who 
 
 ---
 
-## 🌙 Philosophy / フィロソフィー
+## 🌙 Philosophy
 
 > *"The moon doesn't rush. It simply rises, and the world grows quieter."*
->
-> 「月は急がない。ただ昇るだけで、世界は静かになる。」
 
 Lunabook is not trying to compete with Twitter or Instagram. We're building something different — a space that trusts people to think slowly, speak carefully, and connect meaningfully.
-
-Lunabookは、TwitterやInstagramと競うつもりはありません。ゆっくり考え、丁寧に言葉を選び、本当につながれる場所を作っています。
 
 ---
 
@@ -230,8 +181,6 @@ MIT © Lunabook Project
 <div align="center">
 
 🌙 *If this resonates with you — star the repo, open an issue, or just say hello.*
-
-*共感してくれたなら — スターを押して、Issueを開くか、気軽に声をかけてください。*
 
 <br/>
 
